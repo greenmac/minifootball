@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <title>迷你足球報名系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="" />
+    <!-- Bootstrap -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="font/flaticon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-datepicker3.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <body>
+        <!--表頭-->
+        <header class="head_title">
+            <div class="title">
+                <h2>盃賽資訊</h2>
+            </div>
+
+                <div class="tryout_row">
+                    <div class="race main_red_bg">
+                          決賽
+                    </div>
+                    <ul class="finals_text">
+                        <li>
+                          <div class="finals_data_text">
+                            比賽日期
+                        </div> 
+                       </li>
+                        <li><div class="finals_data">2018/01/01 10:00 - 01/03 12:00</div></li>
+                    </ul>
+
+                    <div class="tickets_title">MiniSoccer迷你足球領導春季盃</div>
+                </div>
+        </header>
+        <!--表頭 end-->
+        <!--主體 -->
+        <section class="main ">
+         <div class="tryout_form">
+            <div class="form-group">
+
+              <label for="">場區*</label>
+             <select class="form-control_select">
+                <option>請選擇</option>
+            </select>
+            </div>
+            <div class="form-group">
+
+              <label for="">年齡分組*</label>
+             <select class="form-control_select">
+                <option>請選擇</option>
+            </select>
+            </div>
+
+
+         </div>
+
+        
+        </section>
+        <section>
+         <div class="tryout_footer">
+         <div class="tryout_footer_title"><h3>比賽日期</h3></div>
+         <p>
+            2018/01/01-2018/01/03
+         </p>
+
+         <div class="tryout_footer_title"><h3>注意事項</h3></div>
+         <p>
+             總決賽是全國第一次進行電視轉播的幼兒足球賽事，所有流程細節都必須配合轉播作業規劃執行，為了讓活動進行更為流暢，我們準備了一份給參賽球隊的說明給決賽球隊參考，希望能讓參與本次活動的足球同好們與我們一起為了這難能可貴
+         </p>
+
+         </div>
+            
+        </section>
+        <a class="green_btn" href="finals_step2.html">下一步 (1/2)</a>
+        <!--主體 end-->
+    </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="dist/locales/bootstrap-datepicker.zh-CN.min.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.datepicker').datepicker({
+                language: 'zh-CN'
+            });
+        })
+    </script>
+
+</html>

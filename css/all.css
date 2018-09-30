@@ -1,0 +1,570 @@
+* {
+    font-family: Arial, "Microsoft JhengHei", 微軟正黑體, sans-serif;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #f9f9f9;
+    position: relative;
+
+}
+
+.main_green_bg {
+    background-color: #7FC435!important;
+}
+
+.main_blue_bg {
+    background-color: #317bbf!important;
+}
+
+.main_light_blue_bg {
+    background-color: #41A2C5!important;
+}
+
+.main_orange_bg {
+    background-color: #ED781C!important;
+}
+
+.main_red_bg {
+    background-color: #BA3636!important;
+}
+
+.main_gray_bg {
+    background-color: #f9f9f9!important;
+}
+
+.main_green_font {
+    color: #7FC435!important;
+}
+
+.main_blue_font {
+    color: #317bbf!important;
+}
+
+.main_orange_font {
+    color: #ED781C!important;
+}
+
+.main_red_font {
+    color: #BA3636!important;
+}
+
+.head {
+    padding: 1.5%;
+}
+
+.ball_icon {
+
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #fff;
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: 17px;
+    margin-right: 10px;
+}
+
+.ball_icon i {
+    line-height: 21px;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.title {
+    padding: 3.5%;
+}
+
+.title h2 {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.player_edit {
+    background-color: #fff;
+    display: block;
+    padding: 3.5%;
+    color: #505050;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.main {
+    padding: 1.5%;
+    background-color: #f9f9f9;
+}
+
+.tickets {
+    background-color: #fff;
+    margin-bottom: 1.5%;
+    display: block;
+}
+
+.tickets:focus {
+    text-decoration: none;
+}
+
+.tickets_top {
+    padding: 3.5%;
+}
+
+.tickets_data {}
+
+.race {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px 7px;
+}
+
+.tickets_data_text {
+    color: #828282;
+    font-size: 15px;
+    padding: 2px 0;
+}
+
+.done {
+    color: #7FC435!important;
+    margin: 0 3px;
+}
+
+.undo {
+    color: #ED781C!important;
+    margin: 0 3px;
+}
+
+.tickets_title {
+    color: #505050;
+    font-size: 21px;
+    padding: 15px 0 5px;
+}
+
+.tickets_number {
+    color: #828282;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.tickets_number span {
+    color: #828282;
+    margin: 0 3px;
+}
+
+.btn_row {
+    background-color: #d8d8d8;
+    list-style: none;
+    font-size: 0;
+    margin: 0;
+    padding: 1px 0 0;
+    width: 100%;
+}
+
+.btn_row li {
+    font-size: 15px;
+    background-color: #d8d8d8;
+    list-style: none;
+    float: left;
+    background-color: #fff;
+    width: 49.599%;
+    text-align: center;
+}
+
+.btn_row li:nth-child(2) {
+    font-size: 15px;
+    background-color: #d8d8d8;
+    list-style: none;
+    float: right;
+    background-color: #fff;
+    width: 49.599%;
+    text-align: center;
+}
+
+.btn_row li a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 15px 0;
+    letter-spacing: 1px;
+    color: #828282;
+    font-size: 18px;
+}
+
+.btn_row li a svg {
+    margin: 0 4px;
+}
+
+.head_title {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.head_title .title {
+    padding: 4% 4% 2%;
+}
+
+.head_title .title h2 {
+    color: #505050;
+    margin: 10px 0;
+    font-size: 25px;
+    border-left: solid 5px #7FC435;
+    padding-left: 10px;
+}
+
+.add_player {
+    background-color: #7FC435;
+    display: block;
+    padding: 5% 3.5%;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.head_title h3 {
+    color: #505050;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.player_edit_btn {
+    list-style: none;
+    padding: 0 0 80px;
+    margin: 0;
+}
+
+.player_edit_btn li {
+    margin: 1.5% 0;
+}
+
+.player_edit_btn li a {
+    background-color: #fff;
+    display: block;
+    padding: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    color: #505050;
+}
+
+.leary_text {
+    padding: 150px 0;
+    text-align: center;
+    font-size: 17px;
+    color: #505050;
+}
+
+.form_row {
+    padding: 3.5%;
+    border-radius: 4px;
+}
+
+.green_btn {
+    text-align: center;
+    background-color: #7FC435;
+    display: block;
+    padding: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main_bottom {
+    padding-bottom: 100px;
+}
+
+.tryout_row {
+    padding: 10px 4%;
+}
+
+.tryout_row .race {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.tryout_text {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.tryout_text li {}
+
+.tryout_text li .tickets_data_text {
+    font-size: 13px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.tryout_text li .tickets_number {
+    font-size: 13px;
+    padding: 0;
+}
+
+.tryout_form {
+    padding: 3.5%;
+}
+
+.tryout_footer {
+    background-color: #ffff;
+    padding: 5% 3.5% 100px;
+}
+
+.tryout_footer_title {
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.tryout_footer_title h3 {
+    font-size: 16px;
+    color: #505050;
+    padding: 0;
+    margin: 0;
+}
+
+.tryout_footer {
+    text-align: justify;
+}
+
+.tryout_connection {
+    background-color: #fff;
+}
+
+.tryout_connection_title {
+    padding: 5% 3.5% 2%;
+}
+
+.tryout_connection_title h3 {
+    color: #505050;
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    line-height: 2;
+}
+
+.tryout_connection_title h3 svg {
+    margin-right: 5px;
+}
+
+.tryout_connection_title small {
+    font-size: 14px;
+    color: #828282;
+    line-height: 1.5;
+}
+
+.blue_form {
+    padding: 3.5%;
+    background-color: rgba(49, 149, 188, 0.15);
+}
+
+.green_form {
+    padding: 3.5%;
+    background-color: rgba(127, 196, 53, 0.15);
+}
+
+.blue_form input,
+.green_form input {
+    border: 0;
+}
+
+.tryout_connection .green_form_bottom {
+        padding-bottom: 130px;
+}
+
+.player_list_title {
+    padding: 0 4%;
+}
+
+.player_list_title h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+   
+}
+
+.player_list_title small {
+    font-size: 16px;
+    color: #828282;
+    line-height: 2;
+}
+
+.player_list_title small span {
+    margin-right: 15px;
+    color: #BA3636;
+}
+
+.circle {
+    color: #ED781C !important;
+    margin-top: 5px;
+}
+
+.add_player .plus {
+    font-size: 21px
+}
+
+.assign_row {
+    padding: 0 0 2%;
+}
+
+.assign_row input[type="checkbox"] {
+    display: none;
+}
+
+.assign_row input[type="checkbox"]+label {
+    background-color: #fff;
+    display: block;
+    padding: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    color: #505050;
+}
+
+.assign_row input[type="checkbox"]:checked+label .fa-check-circle {
+    color: #7FC435;
+}
+
+.modal-footer .btn_row {
+    background-color: #fff;
+    list-style: none;
+    font-size: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.modal-footer .btn_row li {
+    font-size: 15px;
+    list-style: none;
+    float: left;
+    width: 49.599%;
+    text-align: center;
+}
+
+.modal-footer .btn_row li:nth-child(2) {
+    font-size: 15px;
+    list-style: none;
+    float: right;
+    width: 49.599%;
+    text-align: center;
+}
+
+.modal-footer .btn_row li a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.modal-footer .btn_row li a svg {
+    margin: 0 4px;
+}
+
+.no_btn {
+    background-color: #A5A5A5;
+}
+
+.yes_btn {
+    background-color: #7FC435;
+}
+
+.modal_icon {
+    text-align: center;
+    font-size: 100px;
+}
+
+.modal_icon .fa-question-circle {
+    text-align: center;
+    font-size: 100px;
+    color: #ED781C;
+}
+
+.modal_icon .fa-exclamation-circle {
+    text-align: center;
+    font-size: 100px;
+    color: #ba3636;
+}
+
+.modal_msg {
+    padding: 15px 0;
+}
+
+.modal_msg_text {
+    text-align: center;
+    font-size: 19px;
+}
+
+.ok_btn {
+    width: 100%;
+    display: block;
+    background-color: #7FC435;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 19px;
+}
+
+
+.finals_text {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.finals_text li {
+    color: #BA3636;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.finals_text li .finals_data_text {
+    font-size: 14px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.finals_text li .finals_data {
+    font-size: 14px;
+    padding: 0;
+}
+
+.modal_title {
+    font-size: 23px;
+    text-align: center;
+    line-height: 2;
+}
+
+.modal_msg ul {
+    list-style: none;
+    padding: 5%;
+    margin: 0;
+    color: #505050;
+}
+
+.modal_msg ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.tryout_footer p{
+    font-size: 16px;
+
+}
